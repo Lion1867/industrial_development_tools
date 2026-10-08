@@ -1,0 +1,39 @@
+--- 1. find_files
+20480	2026-10-01 19:10	demo/01/files/sub/c.txt
+5120	2026-10-01 19:10	demo/01/files/b.txt
+
+--- 2. organize
+Photo.jpg
+README
+archive.zip
+my notes.txt
+photo.JPG
+report.pdf
+something.bin
+archive.zip -> archives/archive.zip
+my notes.txt -> documents/my notes.txt
+photo.JPG -> images/photo.JPG
+Photo.jpg -> images/Photo.jpg
+README -> other/README
+report.pdf -> documents/report.pdf
+something.bin -> other/something.bin
+photo.JPG -> images/photo_1.JPG
+demo/Downloads/archives/archive.zip
+demo/Downloads/documents/my notes.txt
+demo/Downloads/documents/report.pdf
+demo/Downloads/images/photo_1.JPG
+demo/Downloads/images/photo.JPG
+demo/Downloads/images/Photo.jpg
+demo/Downloads/other/README
+demo/Downloads/other/something.bin
+
+--- 3. find_dups
+no duplicates
+group 1: 3 files, 20480 bytes each (sha256 92c9f7fb9867)
+  demo/01/files/c_old.txt
+  demo/01/files/sub/c.txt
+  demo/01/c_backup.txt
+group 2: 2 files, 5120 bytes each (sha256 e8e4156fbd66)
+  demo/01/files/sub/b copy.txt
+  demo/01/files/b.txt
+can free: 46080 bytes (45K)
